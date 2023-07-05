@@ -1,4 +1,4 @@
-from jenkins/jenkins:2.346.3-lts-alpine
+from jenkins/jenkins:2.401.2-lts-alpine
 USER root
 # Pipeline
 RUN jenkins-plugin-cli \
